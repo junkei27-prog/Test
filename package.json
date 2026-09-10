@@ -1,0 +1,20 @@
+{
+  "name": "youtube-instagram-downloader",
+  "version": "1.0.0",
+  "description": "유튜브 & 인스타 다운로더 - 링크만 넣으면 영상/썸네일/스크립트/화면 글자를 추출하는 로컬 전용 웹앱",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.19.2",
+    "ffmpeg-static": "^5.3.0",
+    "tesseract.js": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
